@@ -1,0 +1,8 @@
+{
+    "name": "tsl",
+    "version": "1.0.0",
+    "scripts": {
+        "compile": "tstl && npm run deploy",
+        "deploy": "copy \"build\\bundle.lua\" \"%LOCALAPPDATA%\\Temp\\TabletopSimulator\\Tabletop Simulator Lua\\Global.-1.lua\""
+    }
+}
