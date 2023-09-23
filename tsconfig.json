@@ -16,6 +16,7 @@
       "types": ["tts-types"],
     },
     "tstl": {
+      "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
       "luaTarget": "5.2",
       "noImplicitSelf": true,
       "tstlVerbose": true,

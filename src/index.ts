@@ -1,3 +1,6 @@
+import type { Game, Move } from 'boardgame.io';
+import {TicTacToe} from './Game';
+
 // The OnLoad function. This is called after everything in the game save finishes loading.
 // Most of your script code goes here.
 function onLoad(saveData: any) {

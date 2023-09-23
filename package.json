@@ -4,5 +4,8 @@
     "scripts": {
         "compile": "tstl && npm run deploy",
         "deploy": "copy \"build\\bundle.lua\" \"%LOCALAPPDATA%\\Temp\\TabletopSimulator\\Tabletop Simulator Lua\\Global.-1.lua\""
-    }
+    },
+    "dependencies": {
+       "boardgame.io": "latest" 
+    }  
 }
