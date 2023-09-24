@@ -6,6 +6,12 @@
         "deploy": "copy \"build\\bundle.lua\" \"%LOCALAPPDATA%\\Temp\\TabletopSimulator\\Tabletop Simulator Lua\\Global.-1.lua\""
     },
     "dependencies": {
-       "boardgame.io": "latest" 
-    }  
+        "boardgame.io": "latest",
+        "tstl": "^2.5.13",
+        "tts-types": "^0.0.2"
+    },
+    "devDependencies": {
+        "typescript": "^5.2.2",
+        "typescript-to-lua": "^1.19.2"
+    }
 }
